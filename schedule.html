@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Class Schedule</title>
+  <!-- internal CSS -->  
+<style>
+  /* table styling */
+  table
+  {
+    width:100%
+    height 100%
+    margin 0; /*centering the table*/
+  }
+  th, td {
+            border: 1px solid #ddd; /* Border color */
+            padding: 10px; 
+            text-align: center; /* Centers the text  */
+            background-color: #f9f9f9; /* Background color */
+  }
+
+th{
+  background-color: #f2f2f2; /*Background color for header */
+}
+ td:hover {
+            background-color: #f9f9f9; /* Changes color when hover */
+        }
+a {
+  color:blue;
+  text-decoration: underline;
+}
+.center-text {
+            text-align: center;
+        }
+        
+</style>
+</head>
+<body>
+  <!-- Page title -->
+  <h1>Weekly Class Schedule</h1>
+
+  <!-- Centered text for fall schedule -->
+  <p class="center-text">Class Schedule for Fall 2024</p>
+
+  <table>
+    <tr>
+        <!-- First row: Table Headers -->
+        <th>Day</th>
+        <th>Time</th>
+        <th>Course Name</th>
+        <th>Instructor</th>
+        <th>Room Number</th>
+</tr>
+    <tr>
+      <td rowspan="2">Monday</td> <!-- Merges two cells in the time column -->
+      <td>9:00-10:00</td>
+      <td>CIS 3344</td> 
+      <td>Dr. Johnson</td>
+      <td>Room 101</td> <!-- This adds the room for Monday -->
+  </tr>
+  <tr>
+    <td>10:00-11:00</td> 
+    <td>CIS 3309</td> 
+    <td>Prof. Simon</td> <!-- Adds the professor for the class -->
+    <td>Room 102</td> 
+    <tr>
+      <td>Tuesday</td> 
+      <td colspan="2">9:00-11:00</td> <!-- Spans the time over two columns -->
+      <td>Dr. Lin</td> 
+      <td>Room 202</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td> 
+        <td >9:00-10:00</td>
+        <td>Probability and Statistics</td>
+        <td>Dr. Brown</td> 
+        <td>Room 103</td>
+        <tr>
+          <td>Thursday</td> 
+          <td>10:00-11:00</td>
+          <td>Project Management Course</td>
+          <td>Prof. Steinberg</td> 
+          <td>Room 104</td>
+          <tr>
+            <td rowspan="2">Friday</td> 
+            <td>9:00-10:00</td>
+            <td>Databases Class</td>
+            <td>Dr. Taylor</td> 
+            <td>Room 202</td>
+            </tr>
+            <tr>
+            <td colspan="5">Office Hours</td> <!-- Row spans across all 5 columns -->
+        </tr>
+        </table>       
+        <p class="info-text">
+          <b>Information about the courses can be found <a href="https://bulletin.temple.edu/undergraduate/courses/cis/" target="_blank">here</a></b>
+      </p>
+  </body>
+  </html>
+
+

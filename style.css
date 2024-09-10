@@ -1,0 +1,35 @@
+/* External CSS for Recipe */
+/* Styles for the body element */
+body {
+    font-family: Arial, sans-serif; /* Set font to Arial */
+    line-height: 1.6; 
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 20px; 
+    padding: 20px; 
+}
+
+/* Style for h1 */
+h1 {
+    text-align: center; /* Center the main heading */
+    color: #c0392b; /* Dark red color for the heading */
+}
+
+/* Style for  h2 */
+h2 {
+    color: #2980b9; /* Blue color for subheadings */
+    padding-bottom: 5px; /* Space below the subheadings */
+    border-bottom: 2px solid #2980b9; 
+}
+
+/* Style for paragraph text */
+p {
+    font-size: 1.1em; 
+}
+
+/* Style for unordered and ordered lists */
+ul, ol {
+    margin: 15px; 
+    padding-left: 20px; /* Indent the list items */
+}
+
